@@ -1,0 +1,82 @@
+body {
+    background:#F0F1F3;
+}
+
+.cabecalho {
+    background: #FFF;
+    height: 150px;
+    width:100%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2F3676;
+}
+.cabecalho .busca{
+    padding: 20px 0 0 0;
+    height: 150px;
+    justify-content: center;
+}
+
+.cabecalho .busca{
+    padding: 20px 0 0 0;
+    height: 150px;
+    justify-content: center;
+}
+
+.principal .texto-principal{
+    padding: 10px 0 0 0;
+    height: 100px;
+    color: #2F3676;
+}
+
+.principal .lista-elementos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, auto));
+    list-style: none;
+    grid-auto-flow: row;
+    padding: 0;
+}
+.principal .lista-elementos .elemento{
+    width: 200px;
+    height:170px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 15px;
+    cursor: pointer;
+    background: #FFF;
+}
+
+.principal .lista-elementos .elemento:hover, .principal .lista-elementos .elemento.ativo{
+    background: #2F3676;
+}
+
+.principal .lista-elementos .elemento:hover .imagem, .principal .lista-elementos .elemento.ativo .imagem{
+    color: #FFF;
+}
+
+.principal .lista-elementos .elemento .imagem{
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 6rem;
+    color: #2F3676;
+}
+
+.principal .lista-elementos .elemento .campo{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.principal .lista-elementos .elemento  .campo .quantidade{
+    width: 75px;
+    align-self: center;
+}
+
+.principal .btn.btn-envio {
+    background: #2F3676;
+    color:#FFF;
+}
+
+.compra-modal .imagem{
+    font-size: 3rem;
+    color: #2F3676;
+}

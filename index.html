@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Bem Paggo</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <form class="busca">
+                <div class="form-row align-items-center">
+                    <!-- <div class="col-md-12">
+                        <label class="sr-only" for="inlineFormInputGroup">Busca</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Busca">
+                        </div>
+                    </div> -->
+                </div>
+            </form>
+        </div>
+    </header>
+    <main class="principal">
+        <div class="container">
+            <div class="texto-principal">
+                <h3 class="txt">
+                    Compra de Adesivos
+                </h3>
+            </div>
+            <form action="#" method="post" class="form-compra">
+                <ul class="lista-elementos">
+
+                </ul>
+                <button type="button" class="btn btn-envio btn-envia" data-toggle="modal">Próxima Etapa</button>
+            </form>
+        </div>
+    </main>
+    <div class="modal fade compra-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="titulo">Confirmação de compra</h5>
+                </div>
+                <div class="modal-body">
+                    <form action="#" class="finaliza-compra">
+                        <table class="tabela-compra table table-striped table-borderless">
+                        </table>
+                        <div class="form-group">
+                            <label for="obs">Observações</label>
+                            <textarea class="form-control obs" id="obs" rows="3" placeholder="Alguma dúvida? Recado?"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fecha</button>
+                    <button type="button" class="btn btn-envio btn-confirma">Confirma compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalAvisoErros" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

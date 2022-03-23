@@ -1,0 +1,32 @@
+{
+    "adesivos": [
+        {
+            "id": "react",
+            "class": "fa-react"
+        },
+        {
+            "id": "vue",
+            "class": "fa-vuejs"
+        },
+        {
+            "id": "angular",
+            "class": "fa-angular"
+        },
+        {
+            "id": "node",
+            "class": "fa-node"
+        },
+        {
+            "id": "js",
+            "class": "fa-js-square"
+        },
+        {
+            "id": "fiddle",
+            "class": "fa-jsfiddle"
+        },
+        {
+            "id": "php",
+            "class": "fa-php"
+        }
+    ]
+}
